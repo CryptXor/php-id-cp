@@ -1,8 +1,43 @@
-object Form1: TForm1
-  Left = 403
-  Height = 240
-  Top = 161
-  Width = 320
-  Caption = 'Form1'
+object frmMain: TfrmMain
+  Left = 355
+  Height = 387
+  Top = 151
+  Width = 684
+  Caption = 'PHP-iD Cross Platform v0.2'
+  ClientHeight = 387
+  ClientWidth = 684
   LCLVersion = '1.6.0.4'
+  object btnProcess: TButton
+    Left = 360
+    Height = 25
+    Top = 320
+    Width = 318
+    Caption = 'Process'
+    OnClick = btnProcessClick
+    TabOrder = 0
+  end
+  object mtbInput: TMemo
+    Left = 8
+    Height = 306
+    Top = 8
+    Width = 670
+    TabOrder = 1
+  end
+  object btnImportFile: TButton
+    Left = 8
+    Height = 25
+    Top = 320
+    Width = 344
+    Caption = 'Import File'
+    Enabled = False
+    TabOrder = 2
+  end
+  object tbResult: TEdit
+    Left = 8
+    Height = 27
+    Top = 352
+    Width = 670
+    TabOrder = 3
+    Text = 'Detection Result'
+  end
 end
