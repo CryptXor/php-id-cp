@@ -5,3 +5,6 @@ I might change everything if there is actual interest in the project, to be much
 
 Draws inspiration from Manhunter's ID tool and PEiD!
 
+# Note
+I hate Pascal. I use it because it is simple to create a GUI in, however the output binaries are now stupidly large, even after compression and stripping.
+I will be creating a C++ version of this utility in the coming weeks, mostly out of sheer boredom :smile:
